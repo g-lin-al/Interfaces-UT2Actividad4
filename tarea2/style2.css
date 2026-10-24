@@ -1,0 +1,61 @@
+/* Propiedades generales */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+main {
+    background-image: url("/imagenes/fondo.png");
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+/* Propiedades del cuerpo y contenido */
+
+figcaption {
+    background-color: blue;
+    color: white;
+}
+
+.foto_opacidad img {
+    width: 450px;
+    margin: auto;
+}
+
+.foto_opacidad {
+    display: inline-block;
+}
+
+#foto_1 {
+    opacity: 0.3;
+}
+
+#foto_2 {
+    opacity: 0.6;
+}
+
+#foto_3 {
+    opacity: 0.85;
+}
+
+/* Propiedades del header y logo */
+
+header {
+    color: white;
+}
+
+#logo {
+    height: 75px;
+    object-fit: contain;
+}
+
+#header_img {
+    height: 75px;
+}
+
+#header_bloque {
+    background-color: blue;
+    padding: 10px;
+}

@@ -1,0 +1,25 @@
+.coche {
+    width: 300px;
+    height: 600px;
+    border: 2px black dashed;
+}
+
+#contain {
+    object-fit: contain;
+}
+
+#cover {
+    object-fit: cover;
+}
+
+#fill {
+    object-fit: fill;
+}
+
+#none {
+    object-fit: none;
+}
+
+#scale-down {
+    object-fit: scale-down;
+}
